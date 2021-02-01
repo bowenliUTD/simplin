@@ -1,13 +1,12 @@
 Package: simplin
 Type: Package
-Title: What the package does (short line)
+Title: simplin
 Version: 1.0
 Date: 2021-01-28
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one
-      line)
-License: What license is it under?
+Author: Bowen Li
+Maintainer: Bowen Li (bowenli@colostate.edu)
+Description: Perform simple linear regression and return a list of statistics.
+License: MIT + file LICENSE
 Imports: Rcpp (>= 1.0.6)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: 

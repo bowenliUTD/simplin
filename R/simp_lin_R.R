@@ -5,4 +5,6 @@ simp_lin_R <- function(x,y){
 
   ### run simp_lin_cpp
   output <- simp_lin_cpp(x,y)
+
+  return(output)
 }
