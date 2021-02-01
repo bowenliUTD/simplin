@@ -1,0 +1,18 @@
+---
+title: "simp_lin"
+author: "Bowen Li"
+output: rmarkdown::html_vignette
+vignette: >
+  \VignetteIndexEntry{simp_lin}
+  \VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This R package performs simple linear regression. With input predictor vector $x$ and response vector $y$ in $\text{simp_lin_R}$ function, a list of statistics from simple linear regression will be returned.  
+It includes the estimate of coefficients, predicted responses, residuals, standard errors of coefficients and 95 percents confidence intervals of coefficients.
+
+
